@@ -12,7 +12,7 @@ public class GreetingController {
     @GetMapping("/")
     public String greeting(Model model) {
         model.addAttribute("name", " Roman");
-        return "home";
+        return "greeting";
     }
     @GetMapping("/test")
     public String start(Model model) {
@@ -20,7 +20,7 @@ public class GreetingController {
     }
     @GetMapping("/start")
     public String test() {
-        return "hello";
+        return "minrec";
     }
 
 
