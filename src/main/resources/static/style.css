@@ -1,0 +1,106 @@
+* {
+
+    padding: 3px;
+    background-image: url(https://krot.info/uploads/posts/2022-02/thumbs/1644832420_14-krot-info-p-foni-dlya-saitov-14.jpg);
+}
+
+
+
+span {
+    font-style: italic;
+
+}
+
+h1 {
+    font-style: italic;
+    color: coral;
+    margin: 0;
+    font-size: 95px;
+    margin-left: 1cm;
+    text-align: center;
+
+}
+h2{
+    color: coral;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bond-text {
+    font-style: italic;
+}
+h3{
+    font-size: 25 px;
+    text-align: center;
+}
+
+p {
+    color: coral;
+    font-style: italic;
+    margin: 0;
+    font-size: 30px;
+
+}
+
+a {
+    color: coral;
+    font-size: 20px;
+    font-style: italic;
+}
+
+li {
+    font-size: 23px;
+
+    color: coral;
+}
+
+ul {
+    color: coral;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+}
+
+.image1 {
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.cont1 {
+    display: inline block;
+    margin: 3px;
+    text-align: center;
+
+    border-color: coral;
+
+}
+
+.main {
+    text-align: center;
+}
+
+
+
+.image>img {
+    width: 750px;
+}
+.right{
+    float: right;
+    width: 300px;
+}
+
+
+.left{
+
+}
+.image{
+    display: inline-block;
+}
+.left>img{
+    width: 300px;
+    margin-top: 1cm;
+}

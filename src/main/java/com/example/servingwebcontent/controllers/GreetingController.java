@@ -9,16 +9,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class GreetingController {
 
+
     @GetMapping("/")
-    public String greeting(Model model) {
-        model.addAttribute("name", " Roman");
-        return "greeting";
-    }
-    @GetMapping("/test")
     public String start(Model model) {
-        return "greeting";
+        return "minrec";
     }
-    @GetMapping("/start")
+    @GetMapping("home")
     public String test() {
         return "minrec";
     }
