@@ -1,4 +1,4 @@
-html{
+html {
     margin: 0;
     padding: 0;
 
@@ -11,7 +11,7 @@ body {
 
 }
 
-footer{
+footer {
     margin: 0cm;
     padding: 0cm;
     background-color: rgb(25, 32, 38);
@@ -30,7 +30,8 @@ h1 {
     text-align: center;
 
 }
-h2{
+
+h2 {
     color: coral;
     font-size: 50px;
     text-align: center;
@@ -39,8 +40,9 @@ h2{
 .bond-text {
     font-style: italic;
 }
-h3{
-    font-size: 25 px;
+
+h3 {
+    font-size: 25px;
     text-align: center;
 }
 
@@ -83,11 +85,12 @@ ul {
 }
 
 .cont1 {
-    display: inline-block;
+
     text-align: center;
 
 }
-.cont1>a{
+
+.cont1 > a {
     margin: 10px;
     font-size: 40px;
 }
@@ -97,73 +100,80 @@ ul {
     text-align: center;
 }
 
-.left img{
+.left img {
     width: 375px;
 }
-.cont2 img{
+
+.cont2 img {
     animation: myAnim 4s ease 0s infinite normal forwards;
     margin-left: 4cm;
 
 }
-.image>img {
+
+.image > img {
     width: 750px;
 
 }
-.right{
+
+.right {
     float: right;
     width: 300px;
 }
 
 
-.image{
+.image {
     display: inline-block;
 }
 
-.cont1 button{
+.cont1 button {
     background-color: rgb(34, 19, 13);
     margin: 1px;
 
 }
 
-.cont1 button:hover{
-    background-color :  rgb(82, 51, 29) !important;
+.cont1 button:hover {
+    background-color: rgb(82, 51, 29) !important;
 
 }
 
-#home{
+#home {
     font-size: 30px;
     margin-left: 10px;
-    border-color: rgb(195, 96, 35) rgb(158, 62, 10) rgb(160, 93, 22)rgb(160, 93, 22);
-    background-color:  rgb(68, 46, 18);
+    border-color: rgb(195, 96, 35) rgb(158, 62, 10) rgb(160, 93, 22) rgb(160, 93, 22);
+    background-color: rgb(68, 46, 18);
     border-radius: 25%;
 }
 
-.cont2{
+.cont2 {
     display: flex;
     justify-content: center;
 
 }
-.price{
+
+.price {
     width: 600px;
     margin-top: 1cm;
 
 }
-.price>ul{
+
+.price > ul {
     text-align: center;
     margin-right: 290px;
 }
-.price.li{
+
+.price.li {
     font-size: 35px;
 }
 
-.foot{
+.foot {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     background-color: rgb(25, 32, 38);
 
 }
-.all{
+
+.all {
     width: 50%;
     margin: 0;
     padding: 0;
@@ -172,46 +182,78 @@ ul {
 
 }
 
-.allinfo{
+.allinfo {
     width: 50%;
     grid-column: 2/3;
     align-items: center;
 }
-.foot p{
+
+.foot p {
     color: rgba(31, 122, 119, 0.72);
     text-align: center;
     font-size: 20px;
     font-style: normal;
 
 }
+
 .allinfo,
-.all{
+.all {
     margin: 16px;
+}
+.video {
+
+   text-align: center;
+    padding: 1cm;
+}
+.left{
+    display: block;
+    text-align: center;
 }
 
 
-
-@media(max-width: 1280px){
+@media (max-width: 1200px) {
     .image1{
+        display: block;
+        text-align: center;
+        margin-right: 3cm;
+    }
+
+    .image1 {
         margin: o;
         padding: 0;
         display: inline;
     }
-    .cont2{
+
+    .cont2 {
         display: inline;
         flex-direction: column;
     }
-    .image1 img{
+
+    .image1 img {
+
         width: 200px;
         display: inline;
     }
-    .price{
+
+    .price {
         display: inline;
         margin: 0%;
         padding: 0%;
+    }
 
+    .left img {
+        width: 200px;
+    }
+    .video>iframe {
+        text-align: center;
+        width: 300px;
+        height: 230px;
+    }
+    .cont1{
+        padding: 3px;
     }
 }
+
 
 @keyframes myAnim {
     0%,

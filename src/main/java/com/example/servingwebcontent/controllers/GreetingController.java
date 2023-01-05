@@ -10,13 +10,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class GreetingController {
 
 
+
     @GetMapping("/")
-    public String start(Model model) {
-        return "minrec";
-    }
-    @GetMapping("home")
     public String test() {
         return "minrec";
+    }
+
+    @GetMapping("/build")
+    public String build(){
+        return "build";
     }
 
 
