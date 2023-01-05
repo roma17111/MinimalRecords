@@ -10,14 +10,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class GreetingController {
 
 
-
     @GetMapping("/")
     public String test() {
         return "minrec";
     }
 
     @GetMapping("/build")
-    public String build(){
+    public String build() {
         return "build";
     }
 
@@ -26,5 +25,8 @@ public class GreetingController {
         return "photo";
     }
 
-
+    @GetMapping("/portfolio")
+    public String portfolio() {
+        return "portfolio";
+    }
 }
