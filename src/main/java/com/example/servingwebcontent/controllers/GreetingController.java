@@ -29,4 +29,8 @@ public class GreetingController {
     public String portfolio() {
         return "portfolio";
     }
+    @GetMapping("/apparatura")
+    public String apparatura() {
+        return "apparatura";
+    }
 }
