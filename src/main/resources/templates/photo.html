@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title th:text="Photo"></title>
+  <link rel="stylesheet" href="../static/style.css"  th:href="@{/style.css}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+<div id="carouselExample" class="carousel slide col-lg-6 container text-center  pb-5">
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+      <img src="https://downloader.disk.yandex.ru/preview/871fd8ff75e0cf151d3ed92a45dfa79097b09d701e3029170da234421528c014/63b72a57/O4e91K-MIjhNlYHHKzjCRaIcf0vRsEk7TuzpofWeEDo-quC941Gj0S7CwCPzdat2cyurvyfb1ZG2MMgX8-jmIA%3D%3D?uid=0&filename=2023-01-05%2017-21-46.JPEG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://downloader.disk.yandex.ru/preview/dee92610694ef22cee0b73b74fc0a12e712d27e6f23e489864c3a816fde00476/63b72e02/HTkR3qe4wAyWneVCGn1deeiznMDzh-lDz2ySpW1WGlgBs9kiPsZiuGpXPI6MI_meptrq8oLo08FWOB9KL6YIGg%3D%3D?uid=0&filename=IMG_4136.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://downloader.disk.yandex.ru/preview/15bba0b160fb824a7fd1db79fd9afca89c3fd0c113f742e0efb9283bfc00da4b/63b72f79/qACPMUT2l59u5987xwoq51ZuycLI-9W9gZub1dS-V-bgWQzgVuvAaHeYpalYK5utADeFiTgii2bspMIXUbLPsQ%3D%3D?uid=0&filename=IMG_4967.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://downloader.disk.yandex.ru/preview/8cffc5a1a04cd54baf6bc611da3083059d17c092e2f865f7b9a5bd7dcd616e41/63b7304c/U9aTyzIBCGEIWAD1st7qn0l0CXTv7WJ_PRGNiBgBTq_Vhyqxji5mqoBhasEVwF32V64UDdNmbcgBBDx1xyWzyQ%3D%3D?uid=0&filename=IMG_4899.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://downloader.disk.yandex.ru/preview/1708509763355a384fe058059278ea266dff94e281b7c589b0e31fddf849e484/63b730af/kxxdMBcC4saVfKWbPy6l1Q-HEHgE66BxvNUyXQurvboYQHd77ciMLC1NHNNzoYH5ZX5YLvJXjdZFp1EzChCW_A%3D%3D?uid=0&filename=IMG_3916.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://downloader.disk.yandex.ru/preview/e749095911b0295960d5c13583aa37ad655e4fc68d1cbc9560b7fa877cd92bda/63b73146/btaElNXBX5xxIv3L4agtyfxKRuG6qDMpaofbdob3FQUea9BS1NwPbrUqK0tMTtQZicxhKPlNJx2ywUkN_tytdA%3D%3D?uid=0&filename=2023-01-05%2017-21-46%20%284%29.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://downloader.disk.yandex.ru/preview/4b178cf729ded94bb1db7d8d8055b3fad4e33ca2510e37e855a6684aaf09ae5c/63b73180/5MD_rPnZJjfW3MC6RvS3Pl7rtrg_0pch-sBA4qG-b4GDg4sxGG5uxHvyc26GHpgHGnd6wAYyJ7hUF_cHJODPOA%3D%3D?uid=0&filename=2023-01-05%2017-21-46%20%283%29.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://downloader.disk.yandex.ru/preview/f8985f9a84d20bd09261b7d0ba787300905d8067c4ab76a032403100d0bb75d2/63b731c9/OQWVnWZ-9P2PP6Z6Z-c4dl7rtrg_0pch-sBA4qG-b4EuYN6XDGeyshEMcg77k2MBbBJBp6jiQFwlmVputh0Tog%3D%3D?uid=0&filename=2023-01-05%2017-21-46%20%282%29.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class="cont1" style=>
+
+  <button id="home"><a id="home1" href="/">Главная</a></button>
+  <button><a href="#">О нас</a></button>
+  <button><a href="#">Наше портфолио</a></button>
+  <button><a href="/photo">Фотографии</a></button>
+  <button><a href="#">Аппаратура</a></button>
+  <button><a href="/build">Как строилась студия</a></button>
+
+</div>
+
+<div style="margin: 3cm" class="left">
+  <Img style="width: 230px"  src="https://img-fotki.yandex.ru/get/15594/200418627.64/0_11a32c_bf228501_orig.png"></Img>
+  <Img style="width: 230px"  src="https://www.3ezhika.ru/papagera/wp-content/uploads/барабан.png"></Img>
+  <img style="width: 230px"  src="https://effects1.ru/gallery/Klipart/Tekhnika-gr/Muzyka/klavishi/klavishi-8-0.png" alt="photo">
+  <img style="width: 230px"  src="https://lh3.googleusercontent.com/NrRTNV93nG4DsZ1IflBotgmSfMJUno0vXu5P45ww23sOCyYrp1uSve4kuC5v6tzBixo"
+       alt="image">
+  <img style="width: 230px"  src="https://phonoteka.org/uploads/posts/2022-01/thumbs/1643580803_88-phonoteka-org-p-muzikalnie-instrumenti-fon-98.png"
+       alt="page">
+  <img style="width: 230px"  src="https://i.pinimg.com/originals/ec/a2/d3/eca2d31b4eb9c3e921abba098b69368f.png" alt="картинка">
+</div>
+</div>
+
+<footer>
+
+  <div class="foot">
+    <div class="all">
+      <p>©Все права защищены</p>
+    </div>
+
+    <div class="allinfo">
+      <p>©Создатели сайта:</p>
+      <p>Якименко Роман Эдуардович</p>
+      <p>Якименко Вероника Владимировна</p>
+      <p>email: romanze1706@gmail.com</p>
+
+    </div>
+  </div>t
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -21,5 +21,10 @@ public class GreetingController {
         return "build";
     }
 
+    @GetMapping("/photo")
+    public String photo() {
+        return "photo";
+    }
+
 
 }
