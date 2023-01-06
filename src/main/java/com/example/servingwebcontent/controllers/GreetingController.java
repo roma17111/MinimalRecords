@@ -33,4 +33,8 @@ public class GreetingController {
     public String apparatura() {
         return "apparatura";
     }
+    @GetMapping("/aboutus")
+    public String aboutus() {
+        return "aboutus";
+    }
 }

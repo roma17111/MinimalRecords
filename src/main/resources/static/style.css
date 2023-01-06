@@ -55,15 +55,16 @@ p {
     color: coral;
     font-style: italic;
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 a {
     color: coral;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
     text-decoration: none;
+
 
 }
 
@@ -206,7 +207,7 @@ ul {
 
 .allinfo,
 .all {
-    margin: 16px;
+    margin: 10px;
 }
 .video {
 
@@ -229,10 +230,16 @@ carousel{
  .hello{
      color: coral;
  }
-
+.container h3{
+    color: aqua;
+}
 
 
 @media (max-width: 1200px) {
+    .container img{
+        width: 370px;
+
+    }
     .image1{
         display: block;
         text-align: center;
