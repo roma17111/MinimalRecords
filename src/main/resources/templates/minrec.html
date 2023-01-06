@@ -6,59 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title th:text="Home"></title>
     <link rel="stylesheet" href="../static/style.css"  th:href="@{/style.css}">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 </head>
 
 <body>
-<h1>Studio</h1>
+<header>
+    <div class="navigator">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark pt-1" data-bs-theme="dark">
+            <div class="container-fluid">
+
+                <button style="background-color: coral" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger"><a style="color: black " class="nav-link active" aria-current="page" href="#">Главная</a></button>
+
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-warning"><a class="nav-link" href="#">О нас</a></button>
+
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-warning"><a class="nav-link" href="#">Наше портфолио</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-warning"><a class="nav-link" href="#">Наше портфолио</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-warning"><a class="nav-link" href="#">Фотографии</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-warning"><a class="nav-link" href="#">Аппаратура</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-warning"><a class="nav-link" href="#">Как строилась студия</a></button>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Наши возможности
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Сведение</a></li>
+                                <li><a class="dropdown-item" href="#">Мастеринг</a></li>
+                                <li><a class="dropdown-item" href="#">Аранжировка</a></li>
+                                <li><a class="dropdown-item" href="#">Написание фонограммы и минусов</a></li>
+                                <li><a class="dropdown-item" href="#">Запись фокала</a></li>
+                                <li><a class="dropdown-item" href="#">Обработка вокала</a></li>
+                                <li><a class="dropdown-item" href="#">Запись музыкальных инструментов </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<h1 style="font-size: 90px" class="hello">Наша студия</h1>
 <div class="image1">
     <div>
 
         <div class="cont2">
             <div>
-                <img src="https://downloader.disk.yandex.ru/preview/82ad32bf89c044d181a4c1e217ccf15255c881cfdf89dd99690b8d0ed45c262d/63b6f1f9/XBx46ZugDliA-GX_qPD6RKo6zZa5xAw-NI6ZTnvTgy3VdnZoiM6q0Vn4fp72ZQXcWhLo2XrmwqCFw6k00LTvuA%3D%3D?uid=0&filename=3e8b5e0f-ee95-4439-8579-462e4b607c87.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048"
+                <img  src="https://downloader.disk.yandex.ru/preview/82ad32bf89c044d181a4c1e217ccf15255c881cfdf89dd99690b8d0ed45c262d/63b6f1f9/XBx46ZugDliA-GX_qPD6RKo6zZa5xAw-NI6ZTnvTgy3VdnZoiM6q0Vn4fp72ZQXcWhLo2XrmwqCFw6k00LTvuA%3D%3D?uid=0&filename=3e8b5e0f-ee95-4439-8579-462e4b607c87.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048"
                      alt="картинка">
             </div>
-            <div class="price">
-                <ul>
-                    <a href="#">
-                        <li>Сведение</li>
-                    </a>
-
-                    <a href="#">
-                        <li>Мастеринг</li>
-                    </a>
-
-                    <a href="#">
-                        <li>Аранжировка под ключ</li>
-                    </a>
-                    <a href="#">
-                        <li>Написание минусов</li>
-                    </a>
-                    <a href="#">
-                        <li>Запись вокала</li>
-                    </a>
-                    <a href="#">
-                        <li>Обработка вокала</li>
-                    </a>
-                    <a href="#">
-                        <li>Запись инструментов</li>
-                    </a>
-                </ul>
-            </div>
         </div>
-        <h2 class="hello">Добро пожаловать!</h2>
+        <h2 style="font-size: 50px" class="hello">Добро пожаловать!</h2>
     </div>
-    <div class="cont1">
-        <button id="home"><a id="home1" href="/">Главная</a></button>
-        <button><a href="#">О нас</a></button>
-        <button><a href="/portfolio">Наше портфолио</a></button>
-        <button><a href="/photo">Фотографии</a></button>
-        <button><a href="#">Аппаратура</a></button>
-        <button><a href="/build">Как строилась студия</a></button>
 
-    </div>
 
     <div class="left">
         <Img src="https://img-fotki.yandex.ru/get/15594/200418627.64/0_11a32c_bf228501_orig.png"></Img>
@@ -89,7 +109,7 @@
     </div>t
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
