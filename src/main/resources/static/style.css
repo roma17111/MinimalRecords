@@ -224,10 +224,12 @@ carousel{
  .navigator a{
      font-style: normal;
      color: coral;
+
  }
  .hello{
      color: coral;
  }
+
 
 
 @media (max-width: 1200px) {
