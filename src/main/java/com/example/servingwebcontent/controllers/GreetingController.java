@@ -9,19 +9,32 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class GreetingController {
 
+
     @GetMapping("/")
-    public String greeting(Model model) {
-        model.addAttribute("name", " Roman");
-        return "home";
-    }
-    @GetMapping("/test")
-    public String start(Model model) {
-        return "greeting";
-    }
-    @GetMapping("/start")
     public String test() {
-        return "hello";
+        return "minrec";
     }
 
+    @GetMapping("/build")
+    public String build() {
+        return "build";
+    }
 
+    @GetMapping("/photo")
+    public String photo() {
+        return "photo";
+    }
+
+    @GetMapping("/portfolio")
+    public String portfolio() {
+        return "portfolio";
+    }
+    @GetMapping("/apparatura")
+    public String apparatura() {
+        return "apparatura";
+    }
+    @GetMapping("/aboutus")
+    public String aboutus() {
+        return "aboutus";
+    }
 }

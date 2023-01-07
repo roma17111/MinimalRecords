@@ -1,0 +1,317 @@
+html {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+ header{
+     margin-bottom:  2cm;
+ }
+body {
+
+margin: 0;
+    padding: 0;
+    background-image: url(https://krot.info/uploads/posts/2022-02/thumbs/1644832420_14-krot-info-p-foni-dlya-saitov-14.jpg);
+
+}
+
+footer {
+
+
+    background-color: rgba(25, 32, 38, 0.86);
+}
+
+span {
+    font-style: italic;
+}
+
+h1 {
+    font-style: italic;
+    color: coral;
+    margin: 0;
+    font-size: 95px;
+    margin-left: 1cm;
+    text-align: center;
+
+}
+
+h2 {
+    color: coral;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bond-text {
+    font-style: italic;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    color: coral;
+    font-style: italic;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+a {
+    color: coral;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+
+
+}
+
+li {
+    font-size: 20px;
+
+    color: coral;
+}
+
+ul {
+    color: coral;
+
+}
+
+.links {
+    text-align: center;
+}
+
+.image1 {
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.cont1 {
+
+    text-align: center;
+
+}
+
+.cont1 a {
+
+    font-size: 20px;
+    color: coral;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.main {
+    text-align: center;
+}
+
+.left img {
+    width: 320px;
+}
+
+.cont2 img {
+    animation: myAnim 4s ease 0s infinite normal forwards;
+   width: 1300px;
+
+}
+
+.image > img {
+
+
+}
+
+.right {
+    float: right;
+    width: 300px;
+}
+
+
+.image {
+    display: inline-block;
+}
+
+.cont1 button {
+    background-color: rgb(34, 19, 13); !important;
+    margin: 1px;!important;
+
+}
+
+.cont1 button:hover {
+    background-color: rgb(82, 51, 29) !important;
+
+}
+
+#home {
+    font-size: 30px;
+    margin-left: 10px;
+    border-color: rgb(195, 96, 35) rgb(158, 62, 10) rgb(160, 93, 22) rgb(160, 93, 22);
+    background-color: rgb(68, 46, 18);
+    border-radius: 25%;
+}
+
+.cont2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.price > ul {
+    text-align: center;
+    margin-right: 290px;
+}
+
+.price.li {
+    font-size: 35px;
+}
+
+.foot {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: rgba(25, 32, 38, 0);
+
+}
+
+.all {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    grid-column: 1/2;
+    align-items: center;
+
+}
+
+.allinfo {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    grid-column: 2/3;
+    align-items: center;
+}
+
+.foot p {
+    color: rgba(157, 186, 27, 0.72);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+
+}
+
+.allinfo,
+.all {
+    margin: 10px;
+}
+.video {
+
+   text-align: center;
+    padding: 1cm;
+}
+.left{
+    display: block;
+    text-align: center;
+}
+carousel{
+    display: flex;
+   justify-content: center;
+}
+ .navigator a{
+     font-style: normal;
+     color: coral;
+
+ }
+ .hello{
+     color: coral;
+ }
+.container h3{
+    color: aqua;
+}
+
+
+@media (max-width: 1200px) {
+    .container img{
+        width: 370px;
+
+    }
+    .image1{
+        display: block;
+        text-align: center;
+        margin-right: 3cm;
+    }
+
+    .image1 {
+        margin: o;
+        padding: 0;
+        display: inline;
+    }
+
+    .cont2 {
+        display: inline;
+        flex-direction: column;
+    }
+
+    .image1 img {
+
+        width: 200px;
+        display: inline;
+    }
+
+    .price {
+        display: inline;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .left img {
+        width: 200px;
+    }
+    .video>iframe {
+        text-align: center;
+        width: 300px;
+        height: 230px;
+    }
+    .cont1{
+        padding: 3px;
+    }
+}
+
+
+@keyframes myAnim {
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(-6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(-2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(1.2deg);
+    }
+}
+
+
+
+
+
