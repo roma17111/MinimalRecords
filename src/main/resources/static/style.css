@@ -18,7 +18,8 @@ margin: 0;
 
 footer {
 
-
+margin: 0;
+    padding: 0;
     background-color: rgba(25, 32, 38, 0.86);
 }
 
@@ -233,7 +234,9 @@ carousel{
 .container h3{
     color: aqua;
 }
-
+.container h1{
+    color: coral;
+}
 
 @media (max-width: 1200px) {
     .container img{
