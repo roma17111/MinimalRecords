@@ -1,5 +1,5 @@
 pipeline {
-    agent AWS
+    agent 'AWS'
   environment {
 
     registry = ""
