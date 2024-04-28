@@ -7,7 +7,6 @@ pipeline {
     dockerImageName = 'minimalrecords'
   }
   stages {
-
     stage('Build') {
        steps {
          sh "mvn clean install"
