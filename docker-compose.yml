@@ -1,0 +1,9 @@
+version: 1.0.0
+
+services:
+  minimalrecords:
+    build: .
+    ports:
+      - '80:8080'
+    container_name: minrec
+    restart: always
