@@ -1,7 +1,5 @@
 pipeline {
-        agent {
-                label "AWS"
-         }
+        agent any
   environment {
 
     registry = ""
@@ -17,7 +15,9 @@ pipeline {
        }
     }
   stage('docker-compose start') {
-
+        agent {
+                     label "AWS"
+                 }
       steps {
        sh 'docker compose up -d --build --force-recreate'
       }
