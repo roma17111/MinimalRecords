@@ -9,9 +9,7 @@ pipeline {
   stages {
 
     stage('Build') {
-        agent {
-            label "мастер"
-        }
+
        steps {
          sh "mvn clean install"
        }
