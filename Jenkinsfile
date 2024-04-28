@@ -10,7 +10,7 @@ pipeline {
 
     stage('Build') {
         agent {
-            label "AWS"
+            label "master"
         }
        steps {
          sh "mvn clean install"
