@@ -17,7 +17,6 @@ import java.io.FileInputStream;
 @RequestMapping("/files")
 public class MediaController {
 
-
     @SneakyThrows
     @GetMapping("/main")
     public ResponseEntity<?> getMainImage() {
