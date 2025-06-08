@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: minimalrecords
-          image: roman170692/minimalrecords:latest
+          image: roman170692/minimalrecords
           ports:
             - containerPort: 8080
