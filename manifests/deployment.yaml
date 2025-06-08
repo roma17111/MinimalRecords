@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: minimalrecords
+  template:
+    metadata:
+      labels:
+        app: minimalrecords
+    spec:
+      containers:
+        - name: minimalrecords
+          image: roman170692/minimalrecords:latest
+          ports:
+            - containerPort: 8080
