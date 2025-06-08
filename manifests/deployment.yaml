@@ -17,3 +17,4 @@ spec:
           image: roman170692/minimalrecords
           ports:
             - containerPort: 8080
+          imagePullPolicy: Always
