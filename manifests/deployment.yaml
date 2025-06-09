@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: minimalrecords
-          image: roman170692/minimalrecords
+          image: roman170692/minimalrecords:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always

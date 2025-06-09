@@ -19,6 +19,7 @@ jobs:
           java-version: '17'
 
       - name: Build with Maven
+        id: maven_build
         run: mvn clean install
 
       - name: Set up Docker Build
